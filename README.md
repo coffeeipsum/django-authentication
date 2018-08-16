@@ -11,3 +11,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 
 Later, I will look into other mail clients/services like Outlook ('smtp.live.com') and/or Sengrid
 https://sendgrid.com/docs/Integrate/Frameworks/django.html
+
+
+# adding styles to Django via Bootstrap
+sudo pip3 install django_forms_bootstrap
