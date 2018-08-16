@@ -125,3 +125,7 @@ STATIC_URL = '/static/'
 
 # NEW: to give user a feedback
 MESSAGE_STORAGE="django.contrib.messages.storage.session.SessionStorage"
+
+
+# NEW: to allow email send to backend
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
